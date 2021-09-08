@@ -9,13 +9,13 @@
     <script>
         async function include(url, query){
             let doc = await fetch(url).then(res=>res.text());
-            document.querySelector(query).innerText = doc
+            document.querySelector(query).href = `data:text/html;base64,${btoa(doc)}`
         }
 
         include("https://raw.githubusercontent.com/superwibr/code77-master/master/pwa/styles/etigeox.css", '#etgs');
     </script>
 
-    <style id="etgs"></style>
+    <link id="etgs"></link>
 </head>
 <body>
     <div class="tab">
