@@ -2,9 +2,8 @@
     window.onload = async function(){
         let doc = await fetch("https://raw.githubusercontent.com/superwibr/portfolio-school/main/index.html").then(res=>res.text());
         document.querySelector('iframe').src = `data:text/html;base64,${btoa(doc)}`
-        document.requestFullscreen()
     }
 </script>
 <style>iframe {width:100vw;height:100vh;}
 </style>
-<iframe src="" frameborder="0" onclick="document.requestFullscreen()"></iframe>
+<iframe src="" frameborder="0" onclick="window.open(this.src, '_parent')"></iframe>
