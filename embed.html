@@ -1,9 +1,9 @@
 <script>
     window.onload = async function(){
         let doc = await fetch("https://raw.githubusercontent.com/superwibr/portfolio-school/main/index.html").then(res=>res.text());
+        doc = doc.replace('{lyscss}', await fetch('https://cdn.jsdelivr.net/gh/superwibr/portfolio-school/index.css').then(res=>res.text()))
         document.querySelector('iframe').src = `data:text/html;base64,${btoa(doc)}`
     }
 </script>
-<style>iframe {width:100vw;height:100vh;}
-</style>
+<style>iframe {width:100vw;height:100vh;}</style>
 <iframe src="" frameborder="0" onclick="window.open(document.querySelector('iframe').src, '_parent')"></iframe>

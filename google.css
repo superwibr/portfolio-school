@@ -1,22 +1,84 @@
+/*  google site image section */
 .gsi {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    vertical-align: top;
+    width: 41.666667%;
+}
+
+.gsi > div {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.gsi > div > div {
 	font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
     font-size: 16px;
     box-sizing: border-box;
 }
-
-.gsi > div {
-
-}
-.gsi > div > div {
-	
-}
 .gsi > div > div > div {
-	
+	font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 1280px;
 }
 .gsi > div > div > div > div {
-	
+	font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
 }
 .gsi > div > div > div > div > div {
-	
+	font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.gsi > div > div > div > div > div > div {
+	font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+
+.gsi > div > div > div > div > div > div > div {
+	font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.gsi > div > div > div > div > div > div > div > img {
+	font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    border: 0;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
 }
